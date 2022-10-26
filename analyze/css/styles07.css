@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name:
+Author:Derrick Davis
+Date:10/26/22
+File Name:style.css
 */
 
 /* CSS Reset */
@@ -57,6 +57,11 @@ main h1 {
 section {
     color: #fff;
     padding: 3%;
+    background-color: #9d4502;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 article {
@@ -73,6 +78,8 @@ aside {
     font-style: italic;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 4px 4px 10px #183440;
+    text-shadow: 4px 4px 8px #fc7307;
 }
 
 footer {
@@ -83,5 +90,12 @@ footer {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 700px), print {
 
-
+.grid{
+  display: grid;
+  grid-template-columns: 20px 20px 20px;
+}
+/* Tablet Viewport: Style rule for aside */
+aside{
+  grid-column: 1 / span 3;
+}
 }
