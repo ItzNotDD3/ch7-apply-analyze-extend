@@ -90,12 +90,6 @@ footer {
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 700px), print {
 
-.grid{
-  display: grid;
-  grid-template-columns: 20px 20px 20px;
-}
-/* Tablet Viewport: Style rule for aside */
-aside{
-  grid-column: 1 / span 3;
+
 }
 }
